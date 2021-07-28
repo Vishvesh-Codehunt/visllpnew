@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family:"Josefin Sans"
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    height:100px;
+}
+#myVideo {
+    
+    height:100%;
+    width:100%;
+  }
+  .content {
+   
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+.hello{
+    margin-top:0px;
+}
+.navbar{
+    margin-top:0px;
+}
+.navbar-nav{
+    margin-top:0px;
+}
+.parallax-container{
+    margin-bottom:0px;
+}
+.nav-link{
+    color:white;
+}
+.first-section{
+    background: black;
+    opacity: 0.6;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+/* 
+footer */
+#footer{
+    background-color: #290778;
+	font-family:"Josefin Sans"
+}
+.logo-title{
+    color:white;
+    font-size:28px;
+    margin-left:15px;
+}
+.footer-devider-1s1,.footer-devider-2s1,.footer-devider-3s1,.footer-devider-4s1{
+    padding:70px 0px;
+}
+.footer-p{
+    color:white;
+    margin-top:20px;
+    font-size:18px;
+    width:80%;
+}
+.footer-2{
+    color:white;
+    font-size:18px;
+}
+.footer-header{
+    color:white;
+    font-weight:600;
+    font-size:20px;
+}
+.footer-devider-3{
+    color:white;
+    margin-left:40px;
+}
+.footer-devider-3 ul{
+    position:relative;
+    left:14px;
+    margin-top:30px;
+    font-size:18px;
+}
+.footer-3-p{
+    color:white;
+    margin-top:30px;
+    font-size:18px;
+}
+.form-control-footer{
+    padding:10px;
+    font-weight:600;
+}
+.btn-subscribe-footer{
+    padding:5px 20px;
+    border-radius:14px;
+    margin-top:10px;
+    background-color:rgba(132,106,221,0.1);
+    border:1px solid white;
+    border-radius:20px;
+    margin-top:20px;
+    color:white;
+}
+.btn-subscribe-footer:hover{
+    background-color:gray;
+    border:1px solid #1d0553;
+}
+.copyright{
+    color:white;
+    font-size:20px;
+}
+.social-icon{
+    color:white;
+    padding-left:10px;
+    cursor:pointer;
+    padding-bottom:30px;
+}
+.social-icon:hover{
+    color:aquamarine;
+}
+
+/* subscribe-section */
+#subscribe{
+    background-color:#0058ab;
+    
+}
+.email-icon{
+    padding:20px 0px;
+}
+.subscribe-p{
+    font-size:28px;
+    color:white;
+    padding:20px 0px;
+    font-weight:400;
+}
+.form-control-2{
+    margin-top:20px;
+    padding:15px 10px;
+    font-weight:600;
+    font-size:20px;
+}
+.btn-subscribe{
+    padding:10px 20px;
+    border-radius:14px;
+    margin-top:10px;
+    background-color:rgba(132,106,221,0.1);
+    border:1px solid white;
+    border-radius:20px;
+    margin-bottom:100px;
+    margin-top:20px;
+    color:white;
+}
+.custom-shape-divider-bottom-1621936484 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621936484 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom-1621936484 .shape-fill {
+    fill: #f2f2f2;
+}
+.btn-subscribe:hover{
+    background-color:#1d0553;
+    border:1px solid #1d0553;
+}
+.footer-ul li a{
+    position:relative;
+    right:12px;
+}
+.manoj-bharti{
+    margin-top:60px;
+}
+.help-img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: 0.4s;
+  }
+  .verticalLine {
+          border-left: thick solid #0058ab;
+  }
+    .hdfc{
+      margin-top:20%;
+    }
+
+  .quick-loan{
+    margin-top:150px;
+  }
+  
+  .parallax-container{
+    position:relative;
+    bottom:20px;
+  }
+  
+  .home-img{
+    margin-top:7%;
+  }
+  .data-text{
+    margin-left:7%;
+  }
+
+  /* accomplishment  */
+.accomplishment{
+    text-align:center;
+    font-size:40px;
+    margin-top:90px;
+}
+.accomp-p{
+    text-align: center;
+    margin-top:50px;
+    font-size:26px;
+}
+  /* our team */
+  /* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.image{
+    height:100px;
+    width:150px; 
+    position: relative;
+    bottom:12px;
+}
+.preload{
+    height:300px;
+    width:400px;
+}
+@media only screen and (max-width: 900px) {
+	.footer-devider-3s1{
+        margin-left:10px;
+    }
+    .manoj-bharti{
+        margin-top:0px;
+    }
+    .image{
+        position: relative;
+    bottom:0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .preload{
+        height:100%;
+        width:100%;
+    }
+    .image{
+        height:200px;
+        width:70px; 
+        position: relative;
+    bottom:0px;
+    }
+    .i1{
+        margin-top:30px;
+        
+    }
+    .i2{
+        margin-left:10px;
+        
+        width:95%;
+    }
+    .v1{
+        margin-left:10px;
+    }
+    .btn-service{
+        margin-bottom:60px;
+    }
+	/* footer */
+	.footer-devider-1s1{
+		margin-left:30px;
+	}
+	.footer-devider-1s1{
+		padding:30px 0px;
+	}
+	.footer-devider-2s1{
+		padding:10px 0px;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.footer-devider-3s1{
+		padding:10px 0px;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.footer-devider-4s1{
+		padding:10px 0px;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.footer-p{
+		width:100%;
+	}
+    .box-cta-1{
+        text-align:left;
+      }
+      .wow-btn{
+        position: relative;
+        left:0px;
+      }
+      .wow-outer{
+        text-align:left;
+      }
+      .bank-img{
+        margin-top:0px;
+      }
+      .help-img{
+        margin-top:20px;
+        margin-bottom:20px;
+      }
+      .quick-loan{
+        margin-top:50px;
+      }
+      .bank-img{
+        height:170px;
+        width:200px;
+      }
+      .bank-title{
+        text-align:center;
+      }
+      .bank-content{
+        margin-left:20px;
+        margin-right:20px;
+      }
+      .hdfc{
+        margin-top:20px;
+      }
+      .parallax-container{
+      position:relative;
+      top:10px;
+    }
+    .footer-ul li a{
+        position:relative;
+        right:12px;
+    }
+    .footer-ul{
+        margin-top:0px;
+    }
+    .footer-header{
+        margin-bottom:0px;
+    }
+      
+}
+
